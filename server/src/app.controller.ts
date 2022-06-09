@@ -9,10 +9,4 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-
-  @Get('/fxinfo')
-  async getFxInfo(): Promise<string> {
-    // return await this.appService.getFxInfo();
-    return '';
-  }
 }

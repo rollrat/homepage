@@ -1,5 +1,4 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import FxDto from './fx.dto';
 import { FxService } from './fx.service';
 
 @Controller('fx')
